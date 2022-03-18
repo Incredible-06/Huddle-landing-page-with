@@ -19,13 +19,13 @@ body {
      HEADER
    -----------*/
 
-.container header {
+.container .image {
     display: inline-block;
     padding-bottom: 3em;
     margin: 0;
 }
 
-.container header .image-lg {
+.container .image .image-lg {
     max-width: 243.99px;
     max-height: 50.6px;
 }
