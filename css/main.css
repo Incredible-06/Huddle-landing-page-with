@@ -93,16 +93,29 @@ body {
 /* -----------
       FOOTER
    -----------*/
+
+.fa-brands, .fab {
+    padding-top: 8px;
+}
+
 .ft {
     position: absolute;
     right: 0;
+}
+
+.ft a {
+    display: inline-block;
+    width: 2.188em;
+}
+
+.ft #separator {
+    margin: 0 0.938em;
 }
 
 .facebook-icon {
     display: inline-block;
     width: 2.188em;
     height: 2.188em;
-    padding: 5.5px;
     border: 1.5px solid #fff;
     border-radius: 3.125em;
     color: #fff;
@@ -113,19 +126,16 @@ body {
     display: inline-block;
     width: 2.188em;
     height: 2.188em;
-    padding: 5.5px;
     border: 1.5px solid #fff;
     border-radius: 3.125em;
     color: #fff;
     text-align: center;
-    margin: 0 15px;
 }
 
 .instagram-icon {
     display: inline-block;
     width: 2.188em;
     height: 2.188em;
-    padding: 5.5px;
     border: 1.5px solid #fff;
     border-radius: 3.125em;
     color: #fff;
@@ -141,6 +151,10 @@ body {
 
     .container {
         width: 76.374em;
+    }
+
+    .content {
+        width: 80em;
     }
 
     .info {
