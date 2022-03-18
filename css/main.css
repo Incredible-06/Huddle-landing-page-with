@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body {
+    background: url(../images/bg-desktop.svg) hsl(257, 40%, 49%) no-repeat;
+}
+
+.container {
+    margin: 3em 4em 0;
+    position: relative;
+}
+
+/* -----------
+     HEADER
+   -----------*/
+
+.container header {
+    display: inline-block;
+    padding-bottom: 3em;
+    margin: 0;
+}
+
+.container header .logo {
+    max-width: 243.99px;
+    max-height: 50.6px;
+}
+
+/* -----------
+     CONTENT
+   -----------*/
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.content .image-mockups {
+    display: inline-block;
+    /* width: 40em;
+    height: 28.5em; */
+}
+
+.content .image-mockups #illustration {
+    max-height: 28.5em;
+}
+
+/* -----------
+      INFO
+   -----------*/
+
+.info {
+    display: inline-block;
+    padding-left: 4.5em;
+}
+
+.info h3 {
+    color: #fff;
+    font-size: 3.375em;
+    padding-bottom: .8em;
+}
+
+.info p {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.info button {
+    font-size: 1em;
+    color: hsl(257, 40%, 49%);
+    width: 11.875em;
+    height: 3.438em;
+    margin-top: 1.875em;
+    padding: 0.75em;
+    border: none;
+    border-radius: 1.875em;
+    outline: 1px #000;
+    box-shadow: 1px 6px 9px 0 hsl(257, 47%, 32%);
+    cursor: pointer;
+}
+
+.info button:hover {
+    background: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+/* -----------
+      FOOTER
+   -----------*/
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 1.25em;
+}
+
+.facebook-icon {
+    display: inline-block;
+    width: 2.188em;
+    height: 2.188em;
+    padding: 5.5px;
+    border: 1.5px solid #fff;
+    border-radius: 3.125em;
+    color: #fff;
+    text-align: center;
+}
+
+.twitter-icon {
+    display: inline-block;
+    width: 2.188em;
+    height: 2.188em;
+    padding: 5.5px;
+    border: 1.5px solid #fff;
+    border-radius: 3.125em;
+    color: #fff;
+    text-align: center;
+    margin: 0 15px;
+}
+
+.instagram-icon {
+    display: inline-block;
+    width: 2.188em;
+    height: 2.188em;
+    padding: 5.5px;
+    border: 1.5px solid #fff;
+    border-radius: 3.125em;
+    color: #fff;
+    text-align: center;
+}
+
+.facebook-icon:hover, .twitter-icon:hover , .instagram-icon:hover {
+    border: 1.5px solid hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}
+
+@media (max-width: 1380px){
+
+    .info p {
+        font-size: 1em;
+    }
+
+    .info h3 {
+        font-size: 2.6em;
+    }
+}
+
+
+@media (max-width: 600px ){
+        body {
+        background: hsl(257, 40%, 49%);
+        height: 100%;
+    }
+
+    .container {
+        width: 100%;
+        height: 45em;
+        margin: 15px 0 0 0;
+    }
+
+    .container {
+        width: 100%;
+        height: 45em;
+        margin: 25px 0 0 0;
+    }
+
+    .logo {
+        width: 230px;
+        height: 45px;
+    }
+  
+    .content {
+        display: block;
+        width: 22em;
+        margin: 0 auto 0;
+    }
+    
+    .image-mockups #illustration {
+        width: 22em;
+        height: 15em;
+        margin-bottom: 15px;
+    }
+    .info {
+        display: block;
+        position: initial;
+        width: 100%;
+        padding: 0;
+    }
+
+    .info h3 {
+        display: inline-block;
+        width: 305px;
+        text-align: justify;
+        font-size: 30px;
+    }
+
+    .info p {
+        display: inline-block;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .info button {
+        display: block;
+        width: 11em;
+        height: 3em;
+        margin: 2.875em auto;
+
+    }
+
+    .footer {
+        position: initial;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+}
+
+
+@media (max-width: 375px) {
+    body {
+        background: url(../images/bg-mobile.svg) hsl(257, 40%, 49%) no-repeat ;
+    }
+
+    .container {
+        width: 100%;
+        height: 45em;
+        margin: 15px 0 0 0;
+    }
+
+    .container {
+        width: 100%;
+        height: 45em;
+        margin: 15px 0 0 0;
+    }
+
+    .logo {
+        width: 230px;
+        height: 45px;
+    }
+  
+    .content {
+        display: block;
+        width: 20em;
+        margin: 0 auto 0;
+    }
+    
+    .image-mockups #illustration {
+        width: 20em;
+        height: 15em;
+        margin-bottom: 10px;
+    }
+    .info {
+        display: block;
+        position: initial;
+        width: 100%;
+        padding: 0;
+    }
+
+    .info h3 {
+        display: inline-block;
+        width: 305px;
+        text-align: justify;
+        font-size: 30px;
+    }
+
+    .info p {
+        display: inline-block;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .info button {
+        display: block;
+        width: 11em;
+        height: 3em;
+        margin: 1.875em auto;
+
+    }
+
+    .footer {
+        position: initial;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+}
