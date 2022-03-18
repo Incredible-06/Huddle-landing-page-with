@@ -58,7 +58,7 @@ body {
     padding-left: 4.5em;
 }
 
-.info h3 {
+.info h1 {
     color: #fff;
     font-size: 3.375em;
     padding-bottom: .8em;
@@ -91,7 +91,7 @@ body {
 /* -----------
       FOOTER
    -----------*/
-.footer {
+.ft {
     position: absolute;
     right: 0;
     bottom: 1.25em;
@@ -142,7 +142,7 @@ body {
         font-size: 1em;
     }
 
-    .info h3 {
+    .info h1 {
         font-size: 2.6em;
     }
 }
@@ -189,7 +189,7 @@ body {
         padding: 0;
     }
 
-    .info h3 {
+    .info h1 {
         display: inline-block;
         width: 305px;
         text-align: justify;
@@ -210,7 +210,7 @@ body {
 
     }
 
-    .footer {
+    .ft {
         position: initial;
         display: flex;
         justify-content: center;
@@ -260,7 +260,7 @@ body {
         padding: 0;
     }
 
-    .info h3 {
+    .info h1 {
         display: inline-block;
         width: 305px;
         text-align: justify;
@@ -281,7 +281,7 @@ body {
 
     }
 
-    .footer {
+    .ft {
         position: initial;
         display: flex;
         justify-content: center;
