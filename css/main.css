@@ -25,7 +25,7 @@ body {
     margin: 0;
 }
 
-.container header .logo {
+.container header .image-lg {
     max-width: 243.99px;
     max-height: 50.6px;
 }
@@ -94,7 +94,6 @@ body {
 .ft {
     position: absolute;
     right: 0;
-    bottom: 1.25em;
 }
 
 .facebook-icon {
@@ -145,6 +144,10 @@ body {
     .info h1 {
         font-size: 2.6em;
     }
+
+    .ft {
+        bottom: 1.25em;
+    }
 }
 
 
@@ -166,7 +169,7 @@ body {
         margin: 25px 0 0 0;
     }
 
-    .logo {
+    .image-lg {
         width: 230px;
         height: 45px;
     }
@@ -237,7 +240,7 @@ body {
         margin: 15px 0 0 0;
     }
 
-    .logo {
+    .image-lg {
         width: 230px;
         height: 45px;
     }
